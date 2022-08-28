@@ -26,7 +26,7 @@ Route::get('/caracteristicas', function () {
 Route::post('cadastrarnovo', [ CaracteristicaController::class, 'cadastrar']);
 
 
-//ler / listar ! usuario
+//index
 
 Route::get('/caracteristicas',[ CaracteristicaController::class, 'index']);
 
